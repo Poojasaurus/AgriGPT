@@ -1,73 +1,80 @@
 import streamlit as st
-import os
-from dotenv import load_dotenv
 from langchain_groq import ChatGroq
 
-load_dotenv()
-
-groq_api_key = os.getenv("GROQ_API_KEY")
-
-llm = ChatGroq(
-groq_api_key=groq_api_key,
-model_name="llama3-8b-8192"
-)
-
+# ---------------- PAGE CONFIG ----------------
 st.set_page_config(
-page_title="AgriGPT",
-page_icon="🌾",
-layout="wide"
+    page_title="AgriGPT",
+    page_icon="🌾",
+    layout="wide"
 )
 
-# Sidebar
-
+# ---------------- SIDEBAR ----------------
 with st.sidebar:
-st.title("🌾 AgriGPT")
-st.write("AI-Powered Agricultural Assistant")
+    st.title("🌾 AgriGPT")
+    st.write("AI-Powered Agricultural Assistant")
 
-```
-st.markdown("---")
+    st.markdown("---")
 
-st.subheader("Features")
-st.write("✅ Crop Advice")
-st.write("✅ Fertilizer Guidance")
-st.write("✅ Pest & Disease Support")
-st.write("✅ Irrigation Tips")
-st.write("✅ Farming Best Practices")
-```
+    st.subheader("Features")
+    st.write("✅ Crop Advice")
+    st.write("✅ Fertilizer Guidance")
+    st.write("✅ Pest & Disease Support")
+    st.write("✅ Irrigation Tips")
+    st.write("✅ Farming Best Practices")
 
-# Main Header
+# ---------------- API KEY ----------------
+GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
 
-st.markdown(
-""" <div style='text-align:center'> <h1 style='color:#3FA34D;'>🌾 AgriGPT</h1> <p>Your AI-Powered Agricultural Assistant</p> </div>
-""",
-unsafe_allow_html=True
+# ---------------- MODEL ----------------
+llm = ChatGroq(
+    groq_api_key=GROQ_API_KEY,
+    model_name="llama-3.1-8b-instant"
 )
 
-# Session state for chat history
+# ---------------- MAIN UI ----------------
+st.markdown(
+    """
+    <h1 style='text-align:center;color:#4CAF50;'>
+    🌾 AgriGPT
+    </h1>
+    <p style='text-align:center;font-size:20px;'>
+    Your AI-Powered Agricultural Assistant
+    </p>
+    """,
+    unsafe_allow_html=True
+)
 
-if "messages" not in st.session_state:
-st.session_state.messages = []
-
-question = st.chat_input("Ask an agriculture-related question...")
+question = st.text_input(
+    "Ask any agriculture-related question:",
+    placeholder="Example: What are the symptoms of nitrogen deficiency in rice?"
+)
 
 if question:
-st.session_state.messages.append(
-{"role": "user", "content": question}
-)
+    with st.spinner("Thinking..."):
+        try:
+            response = llm.invoke(question)
 
-```
-response = llm.invoke(question)
+            st.success("Answer")
 
-st.session_state.messages.append(
-    {"role": "assistant", "content": response.content}
-)
-```
+            st.markdown(
+                f"""
+                <div style="
+                background-color:#E8F5E9;
+                padding:20px;
+                border-radius:10px;
+                color:black;
+                font-size:18px;">
+                {response.content}
+                </div>
+                """,
+                unsafe_allow_html=True
+            )
 
-# Display chat history
-
-for msg in st.session_state.messages:
-with st.chat_message(msg["role"]):
-st.write(msg["content"])
+        except Exception as e:
+            st.error(f"Error: {e}")
 
 st.markdown("---")
-st.caption("Built with ❤️ using Streamlit + LangChain + Groq")
+st.markdown(
+    "<center>Built with ❤️ using Streamlit + LangChain + Groq</center>",
+    unsafe_allow_html=True
+)
