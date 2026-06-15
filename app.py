@@ -3,102 +3,71 @@ import os
 from dotenv import load_dotenv
 from langchain_groq import ChatGroq
 
-# Load environment variables
 load_dotenv()
 
-# Initialize Groq LLM
+groq_api_key = os.getenv("GROQ_API_KEY")
+
 llm = ChatGroq(
-    model_name="llama-3.1-8b-instant",
-    groq_api_key=os.getenv("GROQ_API_KEY")
+groq_api_key=groq_api_key,
+model_name="llama3-8b-8192"
 )
 
-# Page settings
 st.set_page_config(
-    page_title="AgriGPT",
-    page_icon="🌾",
-    layout="wide"
+page_title="AgriGPT",
+page_icon="🌾",
+layout="wide"
 )
-
-# Custom CSS
-st.markdown("""
-<style>
-.main {
-    padding-top: 1rem;
-}
-
-.title {
-    text-align: center;
-    color: #2E8B57;
-    font-size: 3rem;
-    font-weight: bold;
-}
-
-.subtitle {
-    text-align: center;
-    color: #666666;
-    margin-bottom: 2rem;
-}
-
-.answer-box {
-    background-color: #f0f8f0;
-    padding: 20px;
-    border-radius: 15px;
-    border-left: 5px solid #2E8B57;
-    margin-top: 20px;
-}
-
-.footer {
-    text-align: center;
-    color: gray;
-    margin-top: 50px;
-}
-</style>
-""", unsafe_allow_html=True)
 
 # Sidebar
+
 with st.sidebar:
-    st.title("🌾 AgriGPT")
-    st.write("AI-Powered Agricultural Assistant")
+st.title("🌾 AgriGPT")
+st.write("AI-Powered Agricultural Assistant")
 
-    st.markdown("---")
+```
+st.markdown("---")
 
-    st.write("### Features")
-    st.write("✅ Crop Advice")
-    st.write("✅ Fertilizer Guidance")
-    st.write("✅ Pest & Disease Support")
-    st.write("✅ Irrigation Tips")
-    st.write("✅ Farming Best Practices")
+st.subheader("Features")
+st.write("✅ Crop Advice")
+st.write("✅ Fertilizer Guidance")
+st.write("✅ Pest & Disease Support")
+st.write("✅ Irrigation Tips")
+st.write("✅ Farming Best Practices")
+```
 
-# Main content
-st.markdown('<div class="title">🌾 AgriGPT</div>', unsafe_allow_html=True)
+# Main Header
+
 st.markdown(
-    '<div class="subtitle">Your AI-Powered Agricultural Assistant</div>',
-    unsafe_allow_html=True
+""" <div style='text-align:center'> <h1 style='color:#3FA34D;'>🌾 AgriGPT</h1> <p>Your AI-Powered Agricultural Assistant</p> </div>
+""",
+unsafe_allow_html=True
 )
 
-question = st.text_input(
-    "Ask any agriculture-related question:",
-    placeholder="Example: What are the symptoms of nitrogen deficiency in rice?"
-)
+# Session state for chat history
+
+if "messages" not in st.session_state:
+st.session_state.messages = []
+
+question = st.chat_input("Ask an agriculture-related question...")
 
 if question:
-    with st.spinner("🌱 Analyzing..."):
-        response = llm.invoke(question)
-
-    st.markdown(
-        f"""
-        <div class="answer-box">
-        {response.content}
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
-
-st.markdown(
-    """
-    <div class="footer">
-        Built with ❤️ using Streamlit + LangChain + Groq
-    </div>
-    """,
-    unsafe_allow_html=True
+st.session_state.messages.append(
+{"role": "user", "content": question}
 )
+
+```
+response = llm.invoke(question)
+
+st.session_state.messages.append(
+    {"role": "assistant", "content": response.content}
+)
+```
+
+# Display chat history
+
+for msg in st.session_state.messages:
+with st.chat_message(msg["role"]):
+st.write(msg["content"])
+
+st.markdown("---")
+st.caption("Built with ❤️ using Streamlit + LangChain + Groq")
