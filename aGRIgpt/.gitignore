@@ -37,7 +37,7 @@ ENV/
 *.bin
 
 # Streamlit
-.streamlit/
+.streamlit/secrets.toml
 
 # IDE
 .idea/

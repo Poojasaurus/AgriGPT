@@ -37,16 +37,9 @@ ENV/
 *.bin
 
 # Streamlit
-.streamlit/
+.streamlit/secrets.toml
 
 # IDE
 .idea/
 .vscode/
 *.swp
-
-# Secrets
-.env
-.env.*
-!.env.example
-.streamlit/secrets.toml
-
