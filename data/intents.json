@@ -1,0 +1,172 @@
+{
+  "intents": [
+    {
+      "tag": "disease_diagnosis",
+      "description": "User describes plant symptoms, spots, rotting, wilting, blight, or asks what disease their crop has.",
+      "patterns": [
+        "My tomato leaves have brown circular spots with yellow rings",
+        "There are white powdery patches on the upper surface of cucumber leaves",
+        "Potato foliage is wilting rapidly with dark water-soaked lesions",
+        "Wheat leaves show yellow powdery pustules aligned in stripes",
+        "Why are my chilli leaves curling upward and turning brittle?",
+        "Rice leaves have spindle-shaped brown lesions with grey centers",
+        "Apple fruit has dark scabby olive-green spots on surface",
+        "Cotton leaves are turning yellow with red edges and dropping prematurely",
+        "What fungal infection causes black rot on cabbage heads?",
+        "My plant stems are turning mushy and brown near soil line",
+        "Signs of bacterial leaf blight on paddy",
+        "How can I diagnose late blight in my potato field?",
+        "Tomato stem shows dark cankers and fruit has sunken black spots",
+        "Are these black spots on rose leaves cercospora or black spot?",
+        "Rust pustules appearing on the underside of bean leaves",
+        "Corn leaves have long greyish-green elliptical blights",
+        "Diagnose this leaf discoloration on my brinjal crop",
+        "My grape berries are shriveling up and turning into black mummies",
+        "Seedlings are falling over and rotting at ground level damping off",
+        "Leaves have mosaic patterns with light and dark green mottling"
+      ]
+    },
+    {
+      "tag": "pest_control",
+      "description": "User asks about insects, caterpillars, bugs, worms, mites, sucking pests, and insecticide solutions.",
+      "patterns": [
+        "Small green insects clustered under cotton leaves sucking sap",
+        "White flies flying around my tomato plants when disturbed",
+        "Caterpillars boring holes into tomato fruits and eating inside",
+        "How to control stem borer infestation in paddy crop?",
+        "Tiny red spider mites making fine webs under brinjal leaves",
+        "Aphids attacking mustard flowering heads what spray to use?",
+        "Pink bollworm damage observed in cotton bolls what is IPM control?",
+        "What chemical controls armyworm in maize crops?",
+        "Thrips causing silvery streaks and upward leaf curling in chilli",
+        "How do I eliminate root knot nematodes affecting carrot roots?",
+        "Locust swarm approaching agricultural fields emergency measures",
+        "Neem oil dosage for organic aphid and whitefly prevention",
+        "Mealybugs covering hibiscus and papaya twigs with white waxy powder",
+        "Brown planthopper hopper burn in rice field how to manage?",
+        "Fruit fly stinging mango fruits causing maggot infestation",
+        "Leaf miner creating serpentine white trails inside citrus leaves",
+        "Which insecticide works best against shoot and fruit borer in okra?",
+        "Organic trap crops to manage helicoverpa armigera pod borer",
+        "Termites attacking wheat root system in sandy loam soil",
+        "What is the recommended dose of Imidacloprid for sucking pests?"
+      ]
+    },
+    {
+      "tag": "fertilizer_soil_management",
+      "description": "User inquires about NPK ratios, urea, DAP, micronutrients, compost, soil testing, pH, or deficiency symptoms.",
+      "patterns": [
+        "What is the recommended NPK fertilizer dose for wheat per acre?",
+        "Lower leaves of corn are turning yellow along the central midrib",
+        "How much DAP and MOP should I apply at the time of sowing paddy?",
+        "My soil test report shows pH 8.2 alkaline soil how to improve it?",
+        "Zinc deficiency symptoms in rice leaves and corrective foliar spray",
+        "How to prepare Jeevamrutha and vermicompost for organic farming?",
+        "When should I give urea top dressing to sugarcane crop?",
+        "Blossom end rot in tomato calcium deficiency prevention",
+        "Application rate of 19-19-19 water soluble fertilizer through drip",
+        "Correcting iron chlorosis in groundnut on calcareous soils",
+        "How to manage acidic soil having pH below 5.5 using agricultural lime?",
+        "Difference between single super phosphate SSP and DAP fertilizer",
+        "Foliar spray of micronutrient mixture for vegetable crops",
+        "What organic manures improve water holding capacity in sandy soil?",
+        "Boron deficiency causing hollow stem in cauliflower treatment",
+        "How much cow dung manure is required per hectare before planting?",
+        "Potassium deficiency causing leaf tip marginal scorching in banana",
+        "Benefits of green manuring with sunn hemp or dhaincha in crop rotation",
+        "How to reduce soil salinity and electrical conductivity in fields?",
+        "Best timing for basal fertilizer application before transplanting"
+      ]
+    },
+    {
+      "tag": "irrigation_water_management",
+      "description": "User asks regarding watering schedule, drip irrigation, water stress, drought or drainage.",
+      "patterns": [
+        "How frequently should I irrigate wheat crop during crown root stage?",
+        "Drip irrigation schedule for tomato cultivation in summer season",
+        "Critical irrigation stages for maize crop to avoid yield loss",
+        "How much water does one hectare of paddy require during flowering?",
+        "Signs of waterlogging stress in cotton plants and drainage measures",
+        "Best micro-irrigation method for banana plantation on slopes",
+        "How to check soil moisture using tensiometer in orchard",
+        "Water requirement of potato during tuber bulking phase",
+        "Can I use sprinkler irrigation for flowering mustard crop?",
+        "Managing water stress in chickpea under rainfed condition",
+        "How many liters per hour dripper is recommended for citrus trees?",
+        "Impact of saline irrigation water on onion bulb development",
+        "Irrigation interval for sugarcane in heavy clay soil vs sandy soil",
+        "Furrow irrigation technique for furrow-irrigated raised beds FIRB",
+        "How to save water using mulching in vegetable drip farming?",
+        "Watering frequency for nursery seedlings in shade net house"
+      ]
+    },
+    {
+      "tag": "crop_selection_cultivation",
+      "description": "User asks which crop to grow, seed rate, spacing, sowing time, variety recommendations, or crop rotation.",
+      "patterns": [
+        "Which high-yielding wheat varieties are best for north India rabi?",
+        "Recommended seed rate and row spacing for soybean cultivation",
+        "Best cash crops to grow in red sandy loam soil under low rainfall",
+        "What is the ideal sowing month for kharif cotton in central zone?",
+        "Intercropping pulses with sugarcane for higher income and soil health",
+        "Recommended planting distance for high density guava orchard",
+        "Short duration paddy varieties suitable for late monsoon sowing",
+        "Package of practices for organic ginger and turmeric farming",
+        "How to do seed treatment with Trichoderma and Rhizobium before sowing?",
+        "Is dragon fruit farming profitable on degraded drylands?",
+        "Crop rotation plan after harvesting potato in northern plains",
+        "Nursery preparation and transplanting age for hybrid tomato seedlings",
+        "Which fodder grass provides highest green biomass yield for dairy cattle?",
+        "Optimum plant population per acre for hybrid sweet corn"
+      ]
+    },
+    {
+      "tag": "weather_climate_advice",
+      "description": "User inquires about weather impacts, frost protection, heat wave mitigation, heavy rain forecast, or season timing.",
+      "patterns": [
+        "How to protect potato and tomato crops from winter ground frost?",
+        "Heat wave alert during wheat grain filling stage mitigation steps",
+        "Heavy unseasonal rainfall predicted how to safeguard standing paddy?",
+        "Impact of cloudy weather and high humidity on fungal spore spread",
+        "Best time of day to spray pesticides considering wind speed and rain",
+        "How does El Nino affect summer monsoon and kharif crop sowing?",
+        "Protective measures for mango blossoms during sudden hail storm",
+        "Temperature threshold for tomato pollen sterility and fruit setting",
+        "Managing cold wave stress in vegetable nurseries using plastic tunnels",
+        "Windbreak tree species to protect orchard crops from gale winds"
+      ]
+    },
+    {
+      "tag": "market_price_economic",
+      "description": "User inquires about crop market prices, MSP, mandi rates, storage techniques, crop insurance, or economic returns.",
+      "patterns": [
+        "How to store harvested onions without rotting and sprouting for 4 months?",
+        "Current government minimum support price MSP for wheat and paddy",
+        "Post-harvest cold storage temperature and humidity for apples",
+        "Government subsidies available for setting up solar irrigation pumps",
+        "How does Pradhan Mantri Fasal Bima Yojana PMFBY claim process work?",
+        "Cost of cultivation per acre for hybrid tomato vs open pollinated",
+        "Grain moisture percentage required for safe wheat storage in silos",
+        "Grading and packaging standards for export quality table grapes",
+        "How to register produce on e-NAM national agriculture market portal?",
+        "Economics of polyhouse capsicum cultivation and payback period"
+      ]
+    },
+    {
+      "tag": "general_greeting_help",
+      "description": "User greets, asks who the bot is, asks what capabilities AgriGPT has, or says thank you / goodbye.",
+      "patterns": [
+        "Hello AgriGPT can you help me with my farm?",
+        "Hi who are you and what agricultural services do you provide?",
+        "Namaste agricultural assistant, what can you do?",
+        "Good morning AgriGPT",
+        "Help me improve my crop yield",
+        "Thank you so much for the farming advice",
+        "Goodbye see you later",
+        "Are you an expert agronomist AI?",
+        "What features does this application have?",
+        "Can you analyze leaf photos for plant diseases?"
+      ]
+    }
+  ]
+}

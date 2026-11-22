@@ -1,0 +1,130 @@
+[
+  {
+    "id": "doc_tomato_early_blight",
+    "crop": "Tomato",
+    "category": "disease",
+    "title": "Early Blight in Tomato (Alternaria solani)",
+    "content": "Early blight is caused by the fungus Alternaria solani. Symptoms first appear on older lower leaves as small brown to black spots with characteristic concentric rings creating a 'target board' pattern. As disease progresses, yellow halos surround the spots, causing defoliation, sunburn on fruit, and dark sunken leathery lesions at the stem end of fruits. Favorable conditions include warm temperatures (24-29°C) and high humidity or frequent dew. Chemical control: Spray Mancozeb 75% WP @ 2.5 g/L or Chlorothalonil @ 2 g/L at first symptom. For severe infection, apply Azoxystrobin 23% SC @ 1 ml/L or Difenoconazole 25% EC @ 0.5-1 ml/L. Organic/IPM control: Maintain 2-3 year crop rotation without solanaceous crops; prune lower leaves to prevent splash infection; spray Trichoderma harzianum @ 5 g/L or 1% Bordeaux mixture. Mulching with straw helps minimize soil splash.",
+    "keywords": ["tomato", "early blight", "alternaria solani", "target spots", "concentric rings", "mancozeb", "chlorothalonil", "azoxystrobin", "difenoconazole", "trichoderma", "yellow halo"]
+  },
+  {
+    "id": "doc_tomato_late_blight",
+    "crop": "Tomato",
+    "category": "disease",
+    "title": "Late Blight in Tomato (Phytophthora infestans)",
+    "content": "Late blight is caused by the oomycete Phytophthora infestans. It is an extremely destructive disease that spreads rapidly during cool, cloudy, and wet weather (15-22°C with >90% RH). Symptoms include large, irregular water-soaked pale-green lesions that turn dark purplish-brown. In humid weather, a delicate white downy fungal mildew appears on the underside of leaves. Stems develop dark greasy cankers, and fruits display large greasy olive-brown to dark brown mottled firm rot. Chemical control: Prophylactic spray of Mancozeb @ 2.5 g/L or Copper Oxychloride @ 3 g/L. For active disease outbreak, spray systemic fungicides: Metalaxyl 8% + Mancozeb 64% WP (Ridomil MZ) @ 2.5 g/L or Cymoxanil 8% + Mancozeb 64% WP @ 2 g/L, or Dimethomorph @ 1.5 g/L. Organic control: Copper hydroxide / Bordeaux mixture 1%, bio-control with Pseudomonas fluorescens foliar spray @ 5 g/L. Immediately destroy and bury heavily infected plants.",
+    "keywords": ["tomato", "late blight", "phytophthora infestans", "water-soaked spots", "white mildew", "greasy lesions", "ridomil mz", "metalaxyl", "mancozeb", "copper oxychloride", "cymoxanil"]
+  },
+  {
+    "id": "doc_potato_late_blight",
+    "crop": "Potato",
+    "category": "disease",
+    "title": "Late Blight of Potato Management",
+    "content": "Late blight caused by Phytophthora infestans is the most severe potato disease worldwide. Early symptoms include water-soaked spots at leaf tips and margins that expand into dark brown necrosis with a pale chlorotic border. White cottony fungal growth appears on leaf undersides in morning dew. Tubers develop dry brownish-purple skin discoloration and reddish-brown dry granular rot internally. Recommended management: Use certified disease-free seed tubers. Prophylactic protective spray with Mancozeb 75% WP @ 2.5 kg/ha before canopy closure. When weather conditions favor blight, spray Metalaxyl-Mancozeb @ 2.5 g/L or Fenamidone + Mancozeb @ 2.5 g/L. Practice proper earthing-up to provide at least 10 cm soil barrier preventing spores from washing down to tubers. Dehaulm (cut foliage) 10-12 days before tuber harvesting.",
+    "keywords": ["potato", "late blight", "phytophthora infestans", "tuber rot", "mancozeb", "metalaxyl", "earthing up", "dehaulming"]
+  },
+  {
+    "id": "doc_potato_early_blight",
+    "crop": "Potato",
+    "category": "disease",
+    "title": "Early Blight in Potato (Alternaria solani)",
+    "content": "Potato early blight causes circular to angular brown spots with concentric ridges (target pattern) primarily on older foliage. Infected leaves turn yellow, senesce, and drop. Tuber infections appear as dark, sunken, circular lesions with raised purple-brown margins and leathery rotting flesh underneath. Management: Balanced fertilization avoiding nitrogen deficit (nitrogen stressed plants are highly susceptible). Apply Mancozeb @ 2 g/L or Propineb 70% WP @ 2 g/L. For advanced infections, spray Tebuconazole 25.9% EC @ 1 ml/L or Pyraclostrobin 20% WG @ 1 g/L. Ensure adequate irrigation to minimize crop drought stress.",
+    "keywords": ["potato", "early blight", "alternaria", "concentric rings", "mancozeb", "propineb", "tebuconazole"]
+  },
+  {
+    "id": "doc_wheat_rusts",
+    "crop": "Wheat",
+    "category": "disease",
+    "title": "Wheat Rust Diseases: Yellow Rust and Brown Rust Management",
+    "content": "Yellow (Stripe) Rust is caused by Puccinia striiformis and Brown (Leaf) Rust is caused by Puccinia triticina. Yellow rust forms bright yellow uredinial pustules arranged in linear stripes on leaf blades, common in cool climates (10-15°C). Brown rust produces round to oval scattered orange-brown pustules on upper leaf surfaces. Both disrupt photosynthesis, causing shriveled grains and severe yield drops up to 50%. Management: Grow rust-resistant cultivars (e.g. HD-2967, HD-3086, DBW-187, DBW-222). At first appearance of rust pustules, spray Propiconazole 25% EC (Tilt) @ 1 ml/L (500 ml/ha in 500 L water) or Tebuconazole 25.9% EC @ 1.25 ml/L. A single timely foliar spray at flag leaf stage gives comprehensive protection.",
+    "keywords": ["wheat", "yellow rust", "stripe rust", "brown rust", "leaf rust", "puccinia striiformis", "puccinia triticina", "propiconazole", "tilt", "tebuconazole", "hd-3086", "dbw-187"]
+  },
+  {
+    "id": "doc_rice_bacterial_leaf_blight",
+    "crop": "Rice",
+    "category": "disease",
+    "title": "Bacterial Leaf Blight (BLB) of Rice (Xanthomonas oryzae)",
+    "content": "Bacterial Leaf Blight (BLB) shows water-soaked to yellowish-green translucent streaks starting from leaf margins and tips, which advance into wavy, straw-colored lesions along leaf edges. Milky bacterial ooze droplets can be seen on lesions in early morning. In the severe 'Kresek' seedling phase, whole hills wilt and die. Management: Avoid excessive nitrogen application; split nitrogen into 3-4 doses with adequate potassium. Apply Copper Oxychloride 50% WP @ 2.5 g/L mixed with Streptocycline (Streptomycin sulphate + Tetracycline hydrochloride) @ 100 mg/L (6 g per 60 L water). Drain standing water temporarily to curb bacterial transmission.",
+    "keywords": ["rice", "paddy", "bacterial leaf blight", "blb", "xanthomonas oryzae", "kresek", "streptocycline", "copper oxychloride", "nitrogen split"]
+  },
+  {
+    "id": "doc_rice_stem_borer",
+    "crop": "Rice",
+    "category": "pest",
+    "title": "Yellow Stem Borer Management in Paddy",
+    "content": "The Yellow Stem Borer (Scirpophaga incertulas) larva bores into the central tiller. Damage at vegetative stage causes 'dead heart' (drying of central tiller) and damage at panicle stage causes 'white ear' (erect empty white panicles with zero grain filling). Management: Install sex pheromone traps @ 8-10 traps/ha for monitoring and mass trapping. Biological: Release Trichogramma japonicum egg parasitoids @ 100,000/ha at 30 and 45 DAT. Chemical: Apply Chlorantraniliprole 0.4% G (Ferterra) @ 10 kg/ha or Cartap Hydrochloride 4% G @ 18-25 kg/ha at 25-30 days after transplanting in standing water, or spray Chlorantraniliprole 18.5% SC (Coragen) @ 0.3 ml/L.",
+    "keywords": ["rice", "paddy", "stem borer", "scirpophaga incertulas", "dead heart", "white ear", "coragen", "chlorantraniliprole", "ferterra", "cartap", "pheromone trap"]
+  },
+  {
+    "id": "doc_cotton_bollworm",
+    "crop": "Cotton",
+    "category": "pest",
+    "title": "Pink Bollworm and American Bollworm IPM in Cotton",
+    "content": "Pink bollworm (Pectinophora gossypiella) attacks squares and bolls. Larvae bore into developing bolls, eating seeds and staining lint, often creating 'rosetted flowers'. American bollworm (Helicoverpa armigera) attacks buds, flowers, and bolls, leaving large circular exit holes with frass. Management: Install Gossyplure pheromone traps @ 5 traps/acre. Spray NSKE 5% (Neem Seed Kernel Extract) or Azadirachtin 1500 ppm @ 5 ml/L at square formation. Chemical: For pink bollworm, spray Profenofos 50% EC @ 2 ml/L or Emamectin Benzoate 5% SG @ 0.4 g/L. For Helicoverpa, spray Flubendiamide 39.35% SC @ 0.2 ml/L or Spinetoram 11.7% SC @ 1 ml/L. Terminate crop by January to break pest lifecycle.",
+    "keywords": ["cotton", "pink bollworm", "american bollworm", "helicoverpa", "pectinophora", "emamectin benzoate", "profenofos", "flubendiamide", "neem oil", "pheromone trap"]
+  },
+  {
+    "id": "doc_chilli_leaf_curl_thrips",
+    "crop": "Chilli",
+    "category": "pest",
+    "title": "Chilli Leaf Curl and Thrips & Mites Integrated Control",
+    "content": "Chilli leaf curling is caused by: 1) Thrips (Scirtothrips dorsalis) feeding causes upward cupping of leaves with silvery boat-shaped appearance; 2) Yellow mites (Polyphagotarsonemus latus) causes downward curling of leaves with inverted cup shape and leathery petiole elongation; 3) Chilli Leaf Curl Virus transmitted by whiteflies. Management: Install yellow and blue sticky traps @ 20 traps/acre. To control Thrips: Spray Fipronil 5% SC @ 2 ml/L or Spinetoram 11.7% SC @ 1 ml/L. To control Mites: Spray Spiromesifen 22.9% SC @ 1 ml/L or Fenpyroximate 5% EC @ 1.5 ml/L. To control Whiteflies & Virus spread: Spray Diafenthiuron 50% WP @ 1.25 g/L or Acetamiprid 20% SP @ 0.4 g/L.",
+    "keywords": ["chilli", "leaf curl", "thrips", "mites", "whitefly", "fipronil", "spiromesifen", "diafenthiuron", "sticky traps"]
+  },
+  {
+    "id": "doc_corn_fall_armyworm",
+    "crop": "Corn",
+    "category": "pest",
+    "title": "Fall Armyworm (FAW) Control in Maize (Spodoptera frugiperda)",
+    "content": "Fall armyworm attacks maize from seedling emergence to maturity. Young larvae scrape leaf whorls creating pinholes and window-pane feeding. Older larvae cause ragged irregular leaf damage and produce large piles of sawdust-like frass inside the central whorl. Identification: 4 dark spots arranged in a square on the 8th abdominal segment and inverted 'Y' on head. Management: Deep summer plowing; whorl application of fine sand + lime (9:1 ratio) to suffocate young larvae. Spraying: Direct spray into the leaf whorl. Use Emamectin Benzoate 5% SG @ 0.4 g/L or Chlorantraniliprole 18.5% SC @ 0.4 ml/L, or Spinetoram 11.7% SC @ 0.5 ml/L. Spray during early morning or late afternoon when larvae are active.",
+    "keywords": ["corn", "maize", "fall armyworm", "faw", "spodoptera frugiperda", "whorl damage", "emamectin benzoate", "chlorantraniliprole", "spinetoram"]
+  },
+  {
+    "id": "doc_fertilizer_tomato_schedule",
+    "crop": "Tomato",
+    "category": "fertilizer",
+    "title": "Nutrient Management and Fertilizer Schedule for Tomato",
+    "content": "Recommended NPK dose for open field tomato is 120:60:60 kg/ha and for hybrid tomato is 150:100:120 kg/ha. Basal application: Apply 25 tonnes/ha FYM/vermicompost, entire phosphorus (DAP or SSP), 1/3 nitrogen (Urea), and 1/3 potash (MOP) before transplanting. Top dressing: Remaining nitrogen and potash split in equal parts at 30, 45, and 60 days after transplanting (DAT). Drip fertigation: Apply water-soluble 19:19:19 @ 3 kg/acre during vegetative stage, followed by 12:61:0 (MAP) during flowering, and 13:0:45 (Potassium Nitrate) + Calcium Nitrate @ 4 kg/acre during fruit development. Blossom End Rot prevention: Foliar spray of Calcium Chloride 0.5% or Calcium Nitrate @ 2 g/L during early fruit expansion to cure calcium deficiency.",
+    "keywords": ["tomato", "fertilizer schedule", "npk", "urea", "dap", "19-19-19", "calcium nitrate", "blossom end rot", "fertigation", "potash"]
+  },
+  {
+    "id": "doc_fertilizer_wheat_schedule",
+    "crop": "Wheat",
+    "category": "fertilizer",
+    "title": "Recommended Fertilizer Schedule and Micronutrients for Wheat",
+    "content": "For irrigated high-yielding wheat, recommended NPK is 120-150 kg N, 60 kg P2O5, and 40 kg K2O per hectare (approx 50-60 kg N, 24 kg P, 16 kg K per acre). Basal application: Apply 1/3 Nitrogen, full Phosphorus (e.g. 50 kg DAP/acre), and full Potassium (25 kg MOP/acre) at sowing time using seed-cum-fertilizer drill. First top dressing: 1/3 Nitrogen (Urea @ 35-40 kg/acre) at Crown Root Initiation (CRI) stage (21-25 DAS) immediately before first irrigation. Second top dressing: Remaining 1/3 Nitrogen at jointing/booting stage (45-50 DAS). Micronutrients: In zinc-deficient soils, apply Zinc Sulphate 21% @ 25 kg/ha basal or foliar spray Zinc Sulphate 0.5% + 2% Urea at 30 and 45 DAS to eliminate Khaira/chlorosis symptoms.",
+    "keywords": ["wheat", "fertilizer dose", "npk 120:60:40", "urea", "dap", "mop", "zinc sulphate", "cri stage", "top dressing"]
+  },
+  {
+    "id": "doc_soil_ph_management",
+    "crop": "General",
+    "category": "fertilizer",
+    "title": "Soil pH Management: Correcting Acidic and Alkaline/Saline Soils",
+    "content": "Optimum soil pH for most crops is between 6.0 and 7.5 where nutrient availability is maximized. Acidic Soils (pH < 6.0): Restricts phosphorus, calcium, and magnesium availability and causes aluminum/manganese toxicity. Correction: Apply agricultural limestone (calcium carbonate CaCO3) or dolomite @ 2-4 tonnes/ha depending on buffer capacity, mixed into topsoil 4-6 weeks before planting. Alkaline & Sodic Soils (pH > 8.0): High ESP causes crusting, poor aeration, and zinc/iron deficiency. Correction: Apply agricultural gypsum (calcium sulphate CaSO4.2H2O) @ 3-5 tonnes/ha followed by heavy flushing/leaching with water to displace sodium with calcium. Incorporate green manuring crops (Sesbania/Dhaincha) and sulfur-containing fertilizers (Ammonium Sulphate, SSP).",
+    "keywords": ["soil ph", "acidic soil", "alkaline soil", "saline soil", "agricultural lime", "gypsum", "dhaincha", "green manure", "iron chlorosis", "soil reclamation"]
+  },
+  {
+    "id": "doc_irrigation_critical_stages",
+    "crop": "General",
+    "category": "irrigation",
+    "title": "Critical Irrigation Stages for Major Cereal and Cash Crops",
+    "content": "Timely irrigation during moisture-sensitive stages prevents substantial yield penalties. Wheat: 6 critical stages: 1) Crown Root Initiation (CRI) 20-25 DAS (most critical), 2) Tillering 40-45 DAS, 3) Late jointing 60-65 DAS, 4) Flowering 80-85 DAS, 5) Milking 100-105 DAS, 6) Dough stage 115-120 DAS. Maize: Tasseling and silking stages; moisture stress at pollination causes poor kernel set. Rice: Tillering, panicle initiation, and flowering require continuous shallow water (3-5 cm). Potato: Stolon formation and tuber bulking (30-65 DAP); erratic moisture causes tuber cracking and knobby tubers. Cotton: Flowering and boll formation stages.",
+    "keywords": ["irrigation", "critical stages", "wheat cri", "maize silking", "rice tillering", "potato tuber bulking", "water management", "drip irrigation"]
+  },
+  {
+    "id": "doc_apple_scab_management",
+    "crop": "Apple",
+    "category": "disease",
+    "title": "Apple Scab (Venturia inaequalis) Diagnosis and Spray Schedule",
+    "content": "Apple Scab produces olive-green to black velvety spots on leaves, followed by scabbed, corky, distorted cracked spots on apples. In severe cases, premature defoliation occurs. Primary infections come from ascospores overwintered in fallen orchard leaves during spring rains. Management: Silver tip to green tip stage: Spray Captan 50% WP @ 2.5 g/L or Mancozeb 75% WP @ 3 g/L. Pink bud stage: Spray Difenoconazole 25% EC @ 0.5 ml/L or Dodine 65% WP @ 1 g/L. Petal fall stage: Spray Kresoxim-methyl 44.3% SC @ 0.4 ml/L or Trifloxystrobin 25% + Tebuconazole 50% WG @ 0.4 g/L. Orchard sanitation: Spray 5% Urea on orchard floor leaves before winter to accelerate decomposition of overwintering scab fungi.",
+    "keywords": ["apple", "apple scab", "venturia inaequalis", "difenoconazole", "dodine", "captan", "mancozeb", "kresoxim methyl", "sanitation"]
+  },
+  {
+    "id": "doc_grape_black_rot",
+    "crop": "Grape",
+    "category": "disease",
+    "title": "Black Rot of Grapes (Guignardia bidwellii) Control",
+    "content": "Black rot attacks grape leaves, shoots, tendrils, and berries. On leaves, it forms small circular reddish-brown spots with dark borders containing tiny black fruiting bodies (pycnidia). Berries develop soft, sunken, light brown spots that rapidly rot the entire berry within 48 hours, causing it to shrivel into a hard, wrinkled, jet-black 'mummy' that clings to the cluster. Management: Prune vines to improve canopy air circulation and sunlight penetration. Remove and burn mummified clusters during winter pruning. Spray protective fungicides from bud break through veraison: Mancozeb 75% WP @ 2.5 g/L, Azoxystrobin 23% SC @ 1 ml/L, or Myclobutanil 10% WP @ 1 g/L.",
+    "keywords": ["grape", "black rot", "guignardia bidwellii", "mummy berries", "mancozeb", "azoxystrobin", "myclobutanil", "pruning"]
+  }
+]
