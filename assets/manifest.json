@@ -1,0 +1,17 @@
+{
+  "name": "agriGPT",
+  "short_name": "agriGPT",
+  "description": "AI Agricultural Advisory System & Plant Pathology Lab",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2e7d32",
+  "icons": [
+    {
+      "src": "/assets/icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
